@@ -5,7 +5,7 @@ from equivalent_channel import generate_equivalent_channel
 import sys
 # 导入两种算法
 from CCCP import user1_lager_gain_CCCP, user2_lager_gain_CCCP
-from exhaustive_search import user1_lager_gain_ES, user2_lager_gain_ES
+from coarse_2_fine_search import user1_lager_gain_ES, user2_lager_gain_ES
 
 
 def compare_algorithms(num_cases=10):
